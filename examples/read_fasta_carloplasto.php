@@ -2,12 +2,16 @@
 
 require_once(__DIR__ . '/../include.php');
 
-$filename = $argv[1];
+$dir = $argv[1];
 
+foreach ( glob($dir . '/*.fasta') as $filename ) {
 $basename = explode('.',basename($filename))[0];
 
+$i = 0;
 foreach ( \bio\FastaReader::file($filename) as $name => $seq ) {
-  echo  '>', $basename, "\n";
+  echo  '>', $basename, "_", ++$i, "\n";
   echo  $seq, "\n\n";
+}
+
 }
 
