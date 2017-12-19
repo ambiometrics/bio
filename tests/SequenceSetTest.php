@@ -1,9 +1,8 @@
 <?php
 use PHPUnit\Framework\TestCase;
-require_once(__DIR__ . '/../include.php');
 
-use \bio\SequenceSet;
-use \bio\Sequence;
+use \edwrodrig\bio\SequenceSet;
+use \edwrodrig\bio\Sequence;
 
 class SequenceSetTest extends TestCase {
 

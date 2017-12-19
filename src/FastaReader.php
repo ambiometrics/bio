@@ -1,6 +1,6 @@
 <?php
 
-namespace bio;
+namespace edwrodrig\bio;
 
 class FastaReader {
 

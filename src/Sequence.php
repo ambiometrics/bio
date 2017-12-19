@@ -1,5 +1,5 @@
 <?php
-namespace bio;
+namespace edwrodrig\bio;
 
 class Sequence implements \ArrayAccess {
 

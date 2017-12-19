@@ -1,8 +1,7 @@
 <?php
 use PHPUnit\Framework\TestCase;
-require_once(__DIR__ . '/../include.php');
 
-use \bio\FastaReader;
+use \edwrodrig\bio\FastaReader;
 
 class FastaReaderTest extends TestCase {
 
