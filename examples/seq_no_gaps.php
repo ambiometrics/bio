@@ -1,8 +1,8 @@
 <?php
 
-require_once(__DIR__ . '/../include.php');
+require_once(__DIR__ . '/../vendor/autoload.php');
 
-use \bio\Sequence;
+use \edwrodrig\bio\Sequence;
 
 $seq = new Sequence("ACAKLMLKM----AKLNCNKAJNCJKA");
 

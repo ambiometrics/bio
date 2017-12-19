@@ -1,8 +1,8 @@
 <?php
 
-require_once(__DIR__ . '/../include.php');
+require_once(__DIR__ . '/../vendor/autoload.php');
 
-$seq = new \bio\Sequence('ACTAAACCCTCTGCTAGCTAGTGTACGTGTGTCAGTCGAT');
+$seq = new \edwrodrig\bio\Sequence('ACTAAACCCTCTGCTAGCTAGTGTACGTGTGTCAGTCGAT');
 echo $seq, "\n";
 
 
@@ -15,7 +15,7 @@ echo $seq->translate(), "\n";
 echo $seq->length(), "\n";
 
 
-$seq2 = new \bio\Sequence("ACAKLMLKM----AKLNCNKAJNCJKA");
+$seq2 = new \edwrodrig\bio\Sequence("ACAKLMLKM----AKLNCNKAJNCJKA");
 
 echo $seq2, "\n";
 
